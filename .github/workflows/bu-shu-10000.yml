@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs: 
-  ChangBuShu: 
+  ChangBuShu-10000: 
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
